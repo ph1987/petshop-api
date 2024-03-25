@@ -127,3 +127,11 @@
 2024-03-25T22:13:09.099Z [petshop-api] error DELETE  - update or delete on table "owners" violates foreign key constraint "fk_owners" on table "animals"
 2024-03-25T22:28:37.736Z [petshop-api] error DELETE  - Can't delete an owner having animals related
 2024-03-25T22:29:01.343Z [petshop-api] error DELETE  - Can't delete an owner having animals related
+2024-03-25T22:55:20.174Z [petshop-api] error GET  - connect ECONNREFUSED 127.0.0.1:5432
+2024-03-25T22:55:22.160Z [petshop-api] error GET  - connect ECONNREFUSED 127.0.0.1:5432
+2024-03-25T22:55:58.398Z [petshop-api] error GET  - connect ECONNREFUSED 127.0.0.1:5432
+2024-03-25T22:55:59.473Z [petshop-api] error GET  - connect ECONNREFUSED 127.0.0.1:5432
+2024-03-25T22:58:48.285Z [petshop-api] error GET  - connect ECONNREFUSED 127.0.0.1:5432
+2024-03-25T22:58:49.576Z [petshop-api] error GET  - connect ECONNREFUSED 127.0.0.1:5432
+2024-03-25T23:01:46.146Z [petshop-api] error GET  - connect ECONNREFUSED 127.0.0.1:5432
+2024-03-25T23:04:11.640Z [petshop-api] info GET /owners
