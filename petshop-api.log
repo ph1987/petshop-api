@@ -97,3 +97,33 @@
 2024-03-25T08:09:05.765Z [petshop-api] info DELETE /owners - undefined
 2024-03-25T08:09:09.320Z [petshop-api] error GET  - Invalid owner id
 2024-03-25T08:09:12.249Z [petshop-api] info GET /owners
+2024-03-25T16:43:51.526Z [petshop-api] info GET /animals
+2024-03-25T16:45:37.107Z [petshop-api] error POST  - Expected property name or '}' in JSON at position 3 (line 2 column 2)
+2024-03-25T16:46:27.828Z [petshop-api] info POST /animals - {"name":"Totó","type":"Dog","owner_id":6}
+2024-03-25T16:46:43.671Z [petshop-api] info GET /animals
+2024-03-25T16:47:00.795Z [petshop-api] info GET /animals
+2024-03-25T16:48:37.813Z [petshop-api] error GET  - Converting circular structure to JSON
+    --> starting at object with constructor 'Socket'
+    |     property 'parser' -> object with constructor 'HTTPParser'
+    --- property 'socket' closes the circle
+2024-03-25T16:48:47.443Z [petshop-api] error GET  - Converting circular structure to JSON
+    --> starting at object with constructor 'Socket'
+    |     property 'parser' -> object with constructor 'HTTPParser'
+    --- property 'socket' closes the circle
+2024-03-25T16:50:38.802Z [petshop-api] error GET  - Converting circular structure to JSON
+    --> starting at object with constructor 'Socket'
+    |     property 'parser' -> object with constructor 'HTTPParser'
+    --- property 'socket' closes the circle
+2024-03-25T16:50:44.005Z [petshop-api] error GET  - Converting circular structure to JSON
+    --> starting at object with constructor 'Socket'
+    |     property 'parser' -> object with constructor 'HTTPParser'
+    --- property 'socket' closes the circle
+2024-03-25T16:51:42.559Z [petshop-api] info GET /animals
+2024-03-25T22:12:27.520Z [petshop-api] info GET /owners
+2024-03-25T22:12:36.493Z [petshop-api] info GET /owners
+2024-03-25T22:12:42.914Z [petshop-api] info POST /owners - {"name":"phil","phone":"(21) 97319-2724"}
+2024-03-25T22:12:54.401Z [petshop-api] info POST /animals - {"name":"Zig","type":"Dog","owner_id":10}
+2024-03-25T22:13:00.098Z [petshop-api] info GET /owners
+2024-03-25T22:13:09.099Z [petshop-api] error DELETE  - update or delete on table "owners" violates foreign key constraint "fk_owners" on table "animals"
+2024-03-25T22:28:37.736Z [petshop-api] error DELETE  - Can't delete an owner having animals related
+2024-03-25T22:29:01.343Z [petshop-api] error DELETE  - Can't delete an owner having animals related

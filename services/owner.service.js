@@ -1,4 +1,5 @@
 import OwnerRepository from "../repositories/owner.repository.js";
+import AnimalRepository from "../repositories/animal.repository.js";
 
 async function createOwner(owner) {
   return await OwnerRepository.createOwner(owner);
@@ -17,6 +18,10 @@ async function getOwner(id) {
 }
 
 async function deleteOwner(id) {
+  const checkOwnerHasAnimal = await AnimalRepository.getAnimalsByOwner(id);
+  if (checkOwnerHasAnimal.length) {
+    throw Error("Can't delete an owner having animals related");
+  }
   const findOwner = await this.getOwner(id);
   if (findOwner) {
     return await OwnerRepository.deleteOwner(id);
