@@ -1,0 +1,99 @@
+2024-03-25T07:26:54.705Z [petshop-api] error GET  - owner is not defined
+2024-03-25T07:29:35.642Z [petshop-api] info POST /owner - {"name":"phil","phone":"(21) 97319-2724"}
+2024-03-25T07:29:53.242Z [petshop-api] error PUT  - column "owner_id" does not exist
+2024-03-25T07:30:44.992Z [petshop-api] error PUT  - Converting circular structure to JSON
+    --> starting at object with constructor 'Socket'
+    |     property 'parser' -> object with constructor 'HTTPParser'
+    --- property 'socket' closes the circle
+2024-03-25T07:30:48.623Z [petshop-api] error GET  - owner is not defined
+2024-03-25T07:30:52.386Z [petshop-api] error GET  - owner is not defined
+2024-03-25T07:31:01.128Z [petshop-api] error DELETE  - owner is not defined
+2024-03-25T07:31:04.433Z [petshop-api] error GET  - owner is not defined
+2024-03-25T07:31:08.483Z [petshop-api] error GET  - owner is not defined
+2024-03-25T07:39:41.872Z [petshop-api] error GET  - owner is not defined
+2024-03-25T07:39:45.362Z [petshop-api] error GET  - animal is not defined
+2024-03-25T07:39:52.000Z [petshop-api] error GET  - animal is not defined
+2024-03-25T07:39:55.828Z [petshop-api] error GET  - animal is not defined
+2024-03-25T07:42:32.383Z [petshop-api] error GET  - animal is not defined
+2024-03-25T07:43:08.746Z [petshop-api] error GET  - animal is not defined
+2024-03-25T07:46:55.297Z [petshop-api] info GET /animals
+2024-03-25T07:47:21.726Z [petshop-api] info GET /animals
+2024-03-25T07:47:32.033Z [petshop-api] info GET /animals
+2024-03-25T07:47:40.721Z [petshop-api] info GET /animals
+2024-03-25T07:48:09.441Z [petshop-api] info GET /animals
+2024-03-25T07:48:43.541Z [petshop-api] error GET  - id is not defined
+2024-03-25T07:49:11.930Z [petshop-api] error GET  - id is not defined
+2024-03-25T07:49:12.776Z [petshop-api] error GET  - id is not defined
+2024-03-25T07:49:57.869Z [petshop-api] error GET  - id is not defined
+2024-03-25T07:50:47.142Z [petshop-api] info GET /animals
+2024-03-25T07:50:48.422Z [petshop-api] info GET /animals
+2024-03-25T07:50:50.403Z [petshop-api] info GET /animals
+2024-03-25T07:50:53.101Z [petshop-api] info GET /animals
+2024-03-25T07:51:12.264Z [petshop-api] info GET /animals
+2024-03-25T07:51:35.938Z [petshop-api] info GET /animals
+2024-03-25T07:51:51.168Z [petshop-api] info GET /animals
+2024-03-25T07:51:55.142Z [petshop-api] info GET /animals
+2024-03-25T07:51:58.053Z [petshop-api] info GET /animals
+2024-03-25T07:51:58.998Z [petshop-api] info GET /animals
+2024-03-25T07:52:14.601Z [petshop-api] info GET /animals
+2024-03-25T07:52:20.437Z [petshop-api] info GET /animals
+2024-03-25T07:52:57.873Z [petshop-api] info GET /animals
+2024-03-25T07:53:11.418Z [petshop-api] info GET /animals
+2024-03-25T07:53:16.143Z [petshop-api] info GET /animals
+2024-03-25T07:58:15.737Z [petshop-api] error GET  - Invalid owner id
+2024-03-25T07:58:18.640Z [petshop-api] error GET  - Invalid owner id
+2024-03-25T07:58:22.006Z [petshop-api] error GET  - Invalid owner id
+2024-03-25T07:58:26.320Z [petshop-api] error GET  - Invalid owner id
+2024-03-25T07:58:36.412Z [petshop-api] error GET  - OwnerRepository.getOwners is not a function
+2024-03-25T07:59:20.589Z [petshop-api] error GET  - OwnerRepository.getOwners is not a function
+2024-03-25T07:59:21.434Z [petshop-api] error GET  - OwnerRepository.getOwners is not a function
+2024-03-25T07:59:46.867Z [petshop-api] error GET  - OwnerRepository.getOwners is not a function
+2024-03-25T08:00:06.628Z [petshop-api] info GET /owners
+2024-03-25T08:00:38.075Z [petshop-api] info GET /owners
+2024-03-25T08:00:40.643Z [petshop-api] error GET  - Converting circular structure to JSON
+    --> starting at object with constructor 'Socket'
+    |     property 'parser' -> object with constructor 'HTTPParser'
+    --- property 'socket' closes the circle
+2024-03-25T08:00:57.923Z [petshop-api] info GET /owners
+2024-03-25T08:01:16.324Z [petshop-api] error GET  - Converting circular structure to JSON
+    --> starting at object with constructor 'Socket'
+    |     property 'parser' -> object with constructor 'HTTPParser'
+    --- property 'socket' closes the circle
+2024-03-25T08:01:26.190Z [petshop-api] error GET  - Converting circular structure to JSON
+    --> starting at object with constructor 'Socket'
+    |     property 'parser' -> object with constructor 'HTTPParser'
+    --- property 'socket' closes the circle
+2024-03-25T08:02:50.194Z [petshop-api] error GET  - Invalid owner id
+2024-03-25T08:02:52.679Z [petshop-api] info GET /owners
+2024-03-25T08:04:05.820Z [petshop-api] error DELETE  - Invalid owner id
+2024-03-25T08:04:11.984Z [petshop-api] info POST /owners - {"name":"phil","phone":"(21) 97319-2724"}
+2024-03-25T08:04:19.022Z [petshop-api] info DELETE /owners - undefined
+2024-03-25T08:04:26.977Z [petshop-api] info GET /owners
+2024-03-25T08:04:29.775Z [petshop-api] info GET /owners
+2024-03-25T08:04:53.220Z [petshop-api] info DELETE /owners - undefined
+2024-03-25T08:04:56.440Z [petshop-api] info GET /owners
+2024-03-25T08:05:14.585Z [petshop-api] info GET /owners
+2024-03-25T08:05:18.017Z [petshop-api] info DELETE /owners - undefined
+2024-03-25T08:05:21.028Z [petshop-api] info GET /owners
+2024-03-25T08:08:10.226Z [petshop-api] info POST /owners - {"name":"phil","phone":"(21) 97319-2724"}
+2024-03-25T08:08:15.252Z [petshop-api] error PUT  - Invalid owner id
+2024-03-25T08:08:19.324Z [petshop-api] error PUT  - Converting circular structure to JSON
+    --> starting at object with constructor 'Socket'
+    |     property 'parser' -> object with constructor 'HTTPParser'
+    --- property 'socket' closes the circle
+2024-03-25T08:08:25.429Z [petshop-api] info GET /owners
+2024-03-25T08:08:28.402Z [petshop-api] error GET  - Converting circular structure to JSON
+    --> starting at object with constructor 'Socket'
+    |     property 'parser' -> object with constructor 'HTTPParser'
+    --- property 'socket' closes the circle
+2024-03-25T08:08:30.408Z [petshop-api] info GET /owners
+2024-03-25T08:08:50.157Z [petshop-api] error GET  - Invalid owner id
+2024-03-25T08:08:52.729Z [petshop-api] error GET  - Invalid owner id
+2024-03-25T08:08:56.870Z [petshop-api] error GET  - Converting circular structure to JSON
+    --> starting at object with constructor 'Socket'
+    |     property 'parser' -> object with constructor 'HTTPParser'
+    --- property 'socket' closes the circle
+2024-03-25T08:09:03.095Z [petshop-api] error DELETE  - Invalid owner id
+2024-03-25T08:09:05.765Z [petshop-api] info DELETE /owners - undefined
+2024-03-25T08:09:09.320Z [petshop-api] error GET  - Invalid owner id
+2024-03-25T08:09:12.249Z [petshop-api] info GET /owners
